@@ -44,14 +44,14 @@ function NavBar() {
                 />
                 <MenuList bg='black'>
                     <NavLink to="/">
-                    <MenuItem as={Link}>About</MenuItem>
+                    <MenuItem as={Link} color="white">About</MenuItem>
                     </NavLink>
-                    <NavLink to="/projects">
+                    {/* <NavLink to="/projects">
                     <MenuItem as={Link}>Projects</MenuItem>
                     </NavLink>
                     <NavLink to="/College">
                     <MenuItem as={Link}>College</MenuItem>
-                    </NavLink>
+                    </NavLink> */}
                 </MenuList>
                 </Menu>
           </Box>

@@ -87,6 +87,61 @@ My three favorite things are physics, sailing, and kittens (I fkn love kittens)
 I think joining Physoc is the perfect way to get away from those long lectures, and to get
 know other people with similar interests to you!</Text>
          </Container>
+
+         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
+          <HStack>
+          <Spacer/>
+            <Image src="/Images/Committee/OCM.jpg" alt="OCM" boxSize={55} borderRadius={50}/>
+            
+            <Heading size="md">OCM</Heading>
+            <Spacer/>
+            </HStack>
+            <Text>Hi everyone I&#39;m Aisling (she/her) and I&#39;m a fourth year Nanoscience student. I&#39;ll be your
+OCM this year, after two years of being the Librarian and I&#39;m super excited to see what the
+year will bring! Asides from Physics, I really love to bake and to read.</Text>
+         </Container>
+
+         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
+          <HStack>
+          <Spacer/>
+            <Image src="/Images/Committee/IOPRep.jpg" alt="IOPRep" boxSize={55} borderRadius={50}/>
+            
+            <Heading size="md">IOP Representative</Heading>
+            <Spacer/>
+            </HStack>
+            <Text>Hi I&#39;m Kate, I&#39;m going into 4th year nanoscience, and Im excited to be the IOP rep this year
+after being on committee since 1st year. I love to read and sew and organise events so I&#39;m
+really looking forward to what this year will bring with physoc with new people and new
+ideas!</Text>
+         </Container>
+
+         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
+          <HStack>
+          <Spacer/>
+            <Image src="/Images/Committee/Secretary.jpg" alt="Secretary" boxSize={55} borderRadius={50}/>
+            
+            <Heading size="md">Secretary</Heading>
+            <Spacer/>
+            </HStack>
+            <Text>Hi I&#39;m Kate, I&#39;m going into 4th year nanoscience, and Im excited to be the IOP rep this year
+after being on committee since 1st year. I love to read and sew and organise events so I&#39;m
+really looking forward to what this year will bring with physoc with new people and new
+ideas!</Text>
+         </Container>
+
+         
+         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
+          <HStack>
+          <Spacer/>
+            <Image src="/Images/Committee/PRO.jpg" alt="PRO" boxSize={55} borderRadius={50}/>
+            
+            <Heading size="md">Public Relations Officer</Heading>
+            <Spacer/>
+            </HStack>
+            <Text>Hey there. I&#39;m Luke and I&#39;ll be the PRO this year in ducks meaning posters, apparel and socials
+fall under my domain. I&#39;m a third year physics student but I also love sculpting, writing and
+playing the keyboard. Looking forward to an exciting year getting to know our members</Text>
+         </Container>
          </VStack>
       </Container>
     </Layout>
