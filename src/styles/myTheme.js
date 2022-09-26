@@ -21,7 +21,7 @@ const config = {
   }
 
 const fonts = {
-    heading: "'Patua One'"
+   
 }
 
 export const myTheme = extendTheme({config, styles, fonts})
