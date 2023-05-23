@@ -37,7 +37,7 @@ export default Contact;
 
 // import { google } from 'googleapis';
 
-// const SPREADSHEET_ID = '117676416477188112637';
+// const SPREADSHEET_ID = '';
 // const RANGE = 'Sheet1!A1:B10';
 
 // function Library() {
