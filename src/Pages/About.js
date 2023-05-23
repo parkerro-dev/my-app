@@ -4,8 +4,9 @@ import {Code, Container, Heading,HStack, Image,Spacer,Text, useColorModeValue, V
 
 function About() {
   return (
+    
     <Layout>
-      <Container align="center" mt={5}>
+      <Container align="center" justifyContent="center" mt={5}>
         <Heading>Welcome to Physoc!</Heading>        
       </Container>
 
@@ -30,9 +31,52 @@ function About() {
             </HStack>
             <Text>Heya! I'm Mark and I'll be your auditor this year. Looking forward to seeing you all at our
                   upcoming events! We have some great things planned for this year so keep an eye on this
-                  page to stay updated. If there are any concerns you have, just send it my way and I'll do my
+                  page to stay updated! If there are any concerns you have, just send it my way and I'll do my
                   best!</Text>
             
+         </Container>
+
+         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
+          <HStack>
+          <Spacer/>
+            <Image src="/Images/Committee/Secretary.jpg" alt="Secretary" boxSize={55} borderRadius={50}/>
+            
+            <Heading size="md">Secretary</Heading>
+            <Spacer/>
+            </HStack>
+            <Text>Hi, I'm Sam and I'm the new Physoc secretary this year. 
+              I am a 3rd year physics student and have always had a great passion for physics. 
+              I'm looking forward to getting more involved in the society this year and helping organise some amazing events. 
+              My interests include science, video games and crying over lab reports. 
+              Can't wait to send some class emails and getting to seeing everyone at all the incredible events throughout the year.</Text>
+         </Container>
+
+         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
+          <HStack>
+          <Spacer/>
+            <Image src="/Images/Committee/Treasurer.jpg" alt="Treasurer" boxSize={55} borderRadius={50}/>
+            
+            <Heading size="md">Treasurer</Heading>
+            <Spacer/>
+            </HStack>
+            <Text>Hey I'm Jack, a 3rd year nano student. My role as treasurer is to safeguard our fat stacks of
+            sweet, sweet gold.
+            My three favorite things are physics, sailing, and kittens (I fkn love kittens)
+            I think joining Physoc is the perfect way to get away from those long lectures, and to get
+            know other people with similar interests to you!</Text>
+         </Container>
+
+         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
+          <HStack>
+          <Spacer/>
+            <Image src="/Images/Committee/PRO.jpg" alt="PRO" boxSize={55} borderRadius={50}/>
+            
+            <Heading size="md">Public Relations Officer</Heading>
+            <Spacer/>
+            </HStack>
+            <Text>Hey there. I'm Luke and I'll be the PRO this year in ducks meaning posters, apparel and socials
+            fall under my domain. I'm a third year physics student but I also love sculpting, writing and
+            playing the keyboard. Looking forward to an exciting year getting to know our members</Text>
          </Container>
 
          <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
@@ -44,7 +88,7 @@ function About() {
             <Spacer/>
             </HStack>
             <Text>Hi, my name is Sally, I'm in third year physics. I'll be the Physoc librarian this year. If you're
-                  looking to borrow a book, contact me at duphysoclibrarian@gmail.com</Text>
+                  looking to borrow a book, contact me at duphysoclibrarian@gmail.com.</Text>
          </Container>
 
          <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
@@ -70,35 +114,11 @@ function About() {
             <Heading size="md">Webmaster</Heading>
             <Spacer/>
             </HStack>
-            <Text>Hi! my name is Robert and I’m the webmaster for physoc. I’m in third year studying general physics and I love everything to do with technology and physics. My main hobbies include reading, coding and reading code. If you think wow that guy sounds like a nerd you’d be correct, and it was a little hurtful.</Text>
-         </Container>
-         
-        <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
-          <HStack>
-          <Spacer/>
-            <Image src="/Images/Committee/Treasurer.jpg" alt="Treasurer" boxSize={55} borderRadius={50}/>
-            
-            <Heading size="md">Treasurer</Heading>
-            <Spacer/>
-            </HStack>
-            <Text>Hey I'm Jack, a 3rd year nano student. My role as treasurer is to safeguard our fat stacks of
-            sweet, sweet gold.
-            My three favorite things are physics, sailing, and kittens (I fkn love kittens)
-            I think joining Physoc is the perfect way to get away from those long lectures, and to get
-            know other people with similar interests to you!</Text>
-         </Container>
-
-         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
-          <HStack>
-          <Spacer/>
-            <Image src="/Images/Committee/OCM.jpg" alt="OCM" boxSize={55} borderRadius={50}/>
-            
-            <Heading size="md">OCM</Heading>
-            <Spacer/>
-            </HStack>
-            <Text>Hi everyone I'm Aisling (she/her) and I'm a fourth year Nanoscience student. I'll be your
-            OCM this year, after two years of being the Librarian and I'm super excited to see what the
-            year will bring! Asides from Physics, I really love to bake and to read.</Text>
+            <Text>
+              Hi! my name is Robert and I'm the webmaster for physoc. 
+              I'm in third year studying general physics and I love everything to do with technology and physics. 
+              My main hobbies include reading, coding and reading code. 
+              If you think wow that guy sounds like a nerd you'd be correct, and it was a little hurtful.</Text>
          </Container>
 
          <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
@@ -118,29 +138,18 @@ function About() {
          <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
           <HStack>
           <Spacer/>
-            <Image src="/Images/Committee/Secretary.jpg" alt="Secretary" boxSize={55} borderRadius={50}/>
+            <Image src="/Images/Committee/OCM.jpg" alt="OCM" boxSize={55} borderRadius={50}/>
             
-            <Heading size="md">Secretary</Heading>
+            <Heading size="md">Ordinary Committee Member</Heading>
             <Spacer/>
             </HStack>
-            <Text>
-            Hi, I'm Erin, a third year physics student. I'll be the secretary for Physoc this year, you'll be hearing from me soon via email!
-            </Text>
+            <Text>Hi everyone I'm Aisling (she/her) and I'm a fourth year Nanoscience student. I'll be your
+            OCM this year, after two years of being the Librarian and I'm super excited to see what the
+            year will bring! Asides from Physics, I really love to bake and to read.</Text>
          </Container>
 
          
-         <Container size="md" border="2px" borderRadius={15} p={3} borderColor="#5a5a5a">
-          <HStack>
-          <Spacer/>
-            <Image src="/Images/Committee/PRO.jpg" alt="PRO" boxSize={55} borderRadius={50}/>
-            
-            <Heading size="md">Public Relations Officer</Heading>
-            <Spacer/>
-            </HStack>
-            <Text>Hey there. I'm Luke and I'll be the PRO this year in Physoc meaning posters, apparel and socials
-            fall under my domain. I'm a third year physics student but I also love sculpting, writing and
-            playing the keyboard. Looking forward to an exciting year getting to know our members</Text>
-         </Container>
+
          </VStack>
       </Container>
     </Layout>
