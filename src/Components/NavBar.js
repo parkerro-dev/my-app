@@ -45,6 +45,7 @@ function NavBar() {
                 <MenuList bg='black'>
                     <NavLink to="/">
                     <MenuItem as={Link} color="white">About</MenuItem>
+                    <MenuItem as={Link} color="white">Links</MenuItem>
                     </NavLink>
                     {/* <NavLink to="/projects">
                     <MenuItem as={Link}>Projects</MenuItem>

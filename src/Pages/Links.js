@@ -28,7 +28,7 @@ function About() {
             <Heading size="md">Auditor</Heading>
             <Spacer/>
             </HStack>
-            <Text>Heya! I'm Mark and I'll be your auditor this year. Looking forward to seeing you all at our
+            <Text>Heya! I'm Mark and I'll be your WEBMASTER this year. Looking forward to seeing you all at our
                   upcoming events! We have some great things planned for this year so keep an eye on this
                   page to stay updated. If there are any concerns you have, just send it my way and I'll do my
                   best!</Text>
