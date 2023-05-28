@@ -6,7 +6,7 @@ function Logo() {
   return (
     <NavLink to='/'>
       <Container maxW={160} style={{ marginRight: -11 }}>
-      {/* This ^ is fucked but it wasn't centred with `maxW=150` and `marginRight: 0`. If this fucks you up later, I'm sorry :// -Mark O'Neill */}
+      {/* This ^ is f*cked but it wasn't centred with `maxW=150` and `marginRight: 0`. If this fucks you up later, I'm sorry :// -Mark O'Neill */}
         <Image
           src="/Images/Logo/Logo.png"
           alt="Logo"
