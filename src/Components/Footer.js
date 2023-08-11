@@ -16,7 +16,7 @@ const Footer = () => {
           </a>
         </Box>
         <Box mr={0}>
-          <a href="https://www.linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/company/physoc-trinity-college-dublin/" target="_blank">
             <Image src="https://static.wixstatic.com/media/11062b_7dcffe5daf2944b7be0a46ac6d472634~mv2.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_7dcffe5daf2944b7be0a46ac6d472634~mv2.png" alt="LinkedIn Logo" w="50px" />
           </a>
         </Box>
