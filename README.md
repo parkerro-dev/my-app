@@ -27,6 +27,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+!!! Mark note: to run on your own gh-pages I believe, you need to change package.json homepage like this;
+"homepage": "https://aoneillmark.github.io/physoc-website/",
+
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
