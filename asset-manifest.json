@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/physoc-website/static/css/main.0268785c.css",
-    "main.js": "/physoc-website/static/js/main.7e9c8e41.js",
-    "static/media/slick.svg": "/physoc-website/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/physoc-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/physoc-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/physoc-website/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/physoc-website/index.html",
-    "main.0268785c.css.map": "/physoc-website/static/css/main.0268785c.css.map",
-    "main.7e9c8e41.js.map": "/physoc-website/static/js/main.7e9c8e41.js.map"
+    "main.css": "/static/css/main.80c77a59.css",
+    "main.js": "/static/js/main.dc15ec00.js",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.80c77a59.css.map": "/static/css/main.80c77a59.css.map",
+    "main.dc15ec00.js.map": "/static/js/main.dc15ec00.js.map"
   },
   "entrypoints": [
-    "static/css/main.0268785c.css",
-    "static/js/main.7e9c8e41.js"
+    "static/css/main.80c77a59.css",
+    "static/js/main.dc15ec00.js"
   ]
 }
