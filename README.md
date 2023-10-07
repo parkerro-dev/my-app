@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+INSTRUCTIONS FOR THE NEXT WEBMASTER:
+
 This also heavily used Chakra UI elements. That's why it looks so fancy.
 Some guidelines for the next webmaster; 
 The Physoc.ie website pulls its information from the github repository. So the idea is that you fork a clone the github (master) repository (using your own personal github account), 
