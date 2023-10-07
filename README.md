@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 INSTRUCTIONS FOR THE NEXT WEBMASTER:
 
-This also heavily used Chakra UI elements. That's why it looks so fancy.
-Some guidelines for the next webmaster; 
+This heavily uses Chakra UI elements. That's why it looks so fancy.
+Some guidelines;
 The Physoc.ie website pulls its information from the github repository. So the idea is that you fork a clone the github (master) repository (using your own personal github account), 
 make all your lovely edits and then you compile that (i'll get to that in a sec), you deploy it (i'll get to that), then merge that deployment (you'll be merging gh-pages, but once again i'll get to it. so impatient.) with the physics society github and it should update the website.
 
