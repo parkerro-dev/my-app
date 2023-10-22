@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    // Parse the URL path and redirect to the index.html with the path
-    const segment = window.location.pathname.split('/').pop();
-    window.location.replace('/repositoryname/index.html' + (segment ? ('/' + segment) : ''));
+    // Redirect to the index.html with the original path
+    const path = window.location.pathname;
+    window.location.replace('/index.html' + path);
   </script>
 </head>
 <body>
