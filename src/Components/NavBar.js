@@ -54,13 +54,13 @@ function NavBar() {
                 aria-label="Options"
               />
               <MenuList bg={bgColor}>
-                <NavLink to="/Home">
+                <NavLink to="/home">
                   <MenuItem as={Link} color="white" style={{ backgroundColor: bgColor }}>
                     Home
                   </MenuItem>
                 </NavLink>
 
-                <NavLink to="/About">
+                <NavLink to="/about">
                   <MenuItem as={Link} color="white" style={{ backgroundColor: bgColor }}>
                     About
                   </MenuItem>
@@ -82,19 +82,19 @@ function NavBar() {
                 </Link>
 
 
-                <NavLink to="/Library">
+                <NavLink to="/library">
                   <MenuItem as={Link} color="white" style={{ backgroundColor: bgColor }}>
                     Library
                   </MenuItem>
                 </NavLink>
 
-                <NavLink to="/Gallery">
+                <NavLink to="/gallery">
                   <MenuItem as={Link} color="white" style={{ backgroundColor: bgColor }}>
                     Gallery
                   </MenuItem>
                 </NavLink>
 
-                <NavLink to="/Contact_Us">
+                <NavLink to="/contactus">
                   <MenuItem as={Link} color="white" style={{ backgroundColor: bgColor }}>
                     Contact Us
                   </MenuItem>
