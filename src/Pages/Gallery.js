@@ -73,12 +73,13 @@ function Gallery() {
                   src={image.src}
                   alt={image.alt}
                   className="gallery-thumbnail"
+                  loading="lazy"  // Lazy loading added here
                 />
               </Box>
             ))}
           </SimpleGrid>
         </Container>
-      ))}
+      ))} 
       <Modal isOpen={selectedImage !== null} onClose={handleCloseModal} size="xl">
         <ModalOverlay />
         <ModalContent>

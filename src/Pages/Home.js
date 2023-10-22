@@ -30,7 +30,7 @@ function Home() {
 
     { id: 1, src: './Images/Slider/Trinity.jpg', alt: 'Trinity' },
     { id: 2, src: './Images/Slider/Lecture.jpg', alt: 'Lecture' },
-    { id: 3, src: './Images/Slider/Standard MOdel.jpg', alt: 'Standard Model' },
+    { id: 3, src: './Images/Slider/Standard Model.jpg', alt: 'Standard Model' },
     { id: 4, src: './Images/Slider/Careers Fair 22.jpg', alt: 'Careers Fair 22' },
     { id: 5, src: './Images/Slider/MathsPhys Ball.jpg', alt: 'MathsPhys Ball' },
     { id: 6, src: './Images/Slider/Ego Tunnel.jpg', alt: 'Ego Tunnel' },
