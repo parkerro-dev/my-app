@@ -1,7 +1,7 @@
 import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import React, { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import About from './Pages/About';
 import Contact from './Pages/Contact_Us';
 import Gallery from './Pages/Gallery';
@@ -14,7 +14,7 @@ const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <ChakraProvider theme={myTheme}>
       <StrictMode>
         <ColorModeScript />
@@ -28,5 +28,5 @@ root.render(
         </Routes>
       </StrictMode>
     </ChakraProvider>
-  </BrowserRouter>
+  </HashRouter>
 );
