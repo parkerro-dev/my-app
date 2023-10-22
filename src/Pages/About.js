@@ -115,7 +115,7 @@ function About() {
       text: (
         <>
           <br />
-          <Heading size="md">Sam Marks</Heading> 
+          <Heading size="md">Gabrielle Corcoran</Heading> 
           <Text fontSize="sm" fontWeight="bold">1st Year Physics</Text> <br />
           <Text fontSize="sm" fontWeight="bold">Most bizarre physical phenomenon:</Text> 
           Quantum tunnelling: when a particle is able to penetrate through a potential energy barrier that's higher than its own kinetic energy, for example, it's possible that if you slap a table, your hand will pass through it!
