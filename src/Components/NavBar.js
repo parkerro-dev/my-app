@@ -68,7 +68,7 @@ function NavBar() {
 
 
                 <Link
-                  href="https://trinitysocietieshub.com/"
+                  href="https://trinitysocietieshub.com/collections/science-technology/products/physics"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
