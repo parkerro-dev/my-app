@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Parse the URL path and redirect to the index.html with the path
+    const segment = window.location.pathname.split('/').pop();
+    window.location.replace('/repositoryname/index.html' + (segment ? ('/' + segment) : ''));
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
