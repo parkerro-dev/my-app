@@ -1,8 +1,12 @@
-import { ChakraProvider, ColorModeScript, theme } from '@chakra-ui/react';
+import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import React, { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import About from './Pages/About';
+import Contact from './Pages/Contact_Us';
+import Gallery from './Pages/Gallery';
+import Home from './Pages/Home';
+import Library from './Pages/Library';
 import { myTheme } from './styles/myTheme';
 
 
@@ -15,10 +19,14 @@ root.render(
       <StrictMode>
         <ColorModeScript />
         <Routes>
-          <Route path='/' element={<About/>}/>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/contactus' element={<Contact />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/library' element={<Library />} />
         </Routes>
       </StrictMode>
     </ChakraProvider>
   </HashRouter>
-  
 );
